@@ -19,7 +19,7 @@ import com.techelevator.security.jwt.JWTFilter;
 import com.techelevator.security.jwt.TokenProvider;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "https://pyk006.github.io")
 public class AuthenticationController {
 
     private final TokenProvider tokenProvider;
