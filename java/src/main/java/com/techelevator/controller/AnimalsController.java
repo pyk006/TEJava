@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://pyk006.github.io/TEVue/")
+@CrossOrigin
 public class AnimalsController {
 
     @Autowired
