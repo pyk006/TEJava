@@ -10,7 +10,7 @@ import java.security.Principal;
 import java.util.List;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "https://pyk006.github.io")
 public class ApplicationsController {
     @Autowired
     ApplicationsDao applicationsDao;
